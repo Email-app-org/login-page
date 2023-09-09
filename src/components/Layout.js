@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from './Header'
 import Footer from './Footer'
-import SignupForm from './SignupForm';
+import LoginForm from './LoginForm';
 
 function Layout() {
     return (
         <div className="Layout">
             <Header />
             <main>
-                <SignupForm />
+                <LoginForm />
             </main>
             <Footer />
         </div>
